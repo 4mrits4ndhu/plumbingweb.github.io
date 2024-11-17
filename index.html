@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dhillon Plumbing provides expert plumbing services, including drain cleaning, renovation, and affordable repair and maintenance.">
+    <meta name="keywords" content="Plumbing, Drain Cleaning, Renovation, Repair, Maintenance, Affordable Plumbing">
+    <title>Dhillon Plumbing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.jpg" type="image/png">
+</head>
+<body>
+    <header role="banner">
+        <img src="images/icons8-plumbing-services-50.png" alt="Dhillon Plumbing Logo" class="logo">
+        <h1>Dhillon Plumbing</h1><br>
+   
+    </header>
+    <nav role="navigation">
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="hero" role="region">
+        <h2>Your Trusted Plumbing Experts</h2>
+        <p>Providing top-notch plumbing services for your home and business.</p>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+    </section>
+
+    <section id="services" role="region" aria-labelledby="services-heading">
+        <h2 id="services-heading">Our Services</h2>
+        <div class="service">
+            <img src="images/drain.png" alt="Drain Cleaning">
+            <div class="service-info">
+                <h3>Drain Cleaning</h3>
+                <p>Efficient and thorough drain cleaning services.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="images/renovation.png" alt="Renovation">
+            <div class="service-info">
+                <h3>Renovation</h3>
+                <p>Expert renovation services for your home or business.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="images/repair.png" alt="Repair and Maintenance">
+            <div class="service-info">
+                <h3>All Kinds of Repair and Maintenance</h3>
+                <p>Our comprehensive repair and maintenance services cover everything from minor fixes to major repairs. We ensure that all systems in your home or business are running smoothly and efficiently.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="images/repair-maintenance.jpg" alt="Affordable Service">
+            <div class="service-info">
+                <h3>Affordable Service</h3>
+                <p>Quality services at affordable prices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" role="region">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial">
+                <p>"Dhillon Plumbing did an excellent job on our kitchen renovation. Highly recommend!" - Jane Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"Quick and reliable service. Very satisfied with their work." - John Smith</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="faq" role="region">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What services do you offer?</h3>
+            <p>We offer a wide range of plumbing services, including drain cleaning, renovation, and repair and maintenance.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Are your services affordable?</h3>
+            <p>Yes, we provide high-quality services at affordable prices.</p>
+        </div>
+       
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contact-form" method="POST" action="send_email.php">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+    
+
+    <footer role="contentinfo">
+        <div class="social-media">
+            <a href="https://www.instagram.com/starandeep43?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100094356111391" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/in/tarandeep-dhillon-plumber-apprentice/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="contact-info">
+            <p>Phone: +1(403) 991-6641</p>
+            <p>Email: dhillonzplumbing@gmail.com</p>
+            <a href="https://www.bing.com/maps?osid=37a7c662-fa31-4e22-bf0c-1b5884db4860&cp=51.054155~-114.083394&lvl=17&pi=0&v=2&sV=2&form=S00027" target="_blank">Google Map</a>
+        </div>
+        <div class="legal-info">
+            <a href="privacy-policy.html">Privacy Policy</a> | 
+            <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+    </footer>
+
+    <a href="#top" class="back-to-top">Back to Top</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
